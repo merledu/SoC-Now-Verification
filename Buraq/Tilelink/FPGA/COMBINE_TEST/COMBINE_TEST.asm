@@ -1,5 +1,5 @@
-li x3 0x40001000 #GPIO
-li s0 0x40002000 #UART
+li x3 0x40002000 #GPIO
+li s0 0x40001000 #UART
 li x5 0x40000000 #DCCM
 
 li a0 4
@@ -26,4 +26,3 @@ sw x6 4(s0)       #put data in tx reg
 sw x0 24(s0)
 rep:
 jal rep
-
