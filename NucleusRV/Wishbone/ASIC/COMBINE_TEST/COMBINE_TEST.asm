@@ -26,4 +26,3 @@ sw x6 4(s0)       #put data in tx reg
 sw x0 24(s0)
 rep:
 jal rep
-
